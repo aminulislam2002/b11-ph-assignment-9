@@ -5,6 +5,7 @@ import Register from "../components/Register/Register";
 import Login from "../components/Login/Login";
 import CompanyDetails from "../components/CompanyDetails/CompanyDetails";
 import MyProfile from "../components/MyProfile/MyProfile";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -25,11 +26,19 @@ const router = createBrowserRouter([
       },
       {
         path: "my-profile",
-        element: <MyProfile></MyProfile>,
+        element: (
+          <PrivateRoute>
+            <MyProfile></MyProfile>
+          </PrivateRoute>
+        ),
       },
       {
         path: "company/:id",
-        element: <CompanyDetails></CompanyDetails>,
+        element: (
+          <PrivateRoute>
+            <CompanyDetails></CompanyDetails>
+          </PrivateRoute>
+        ),
       },
     ],
   },

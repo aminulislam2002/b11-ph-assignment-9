@@ -19,7 +19,9 @@ const Navbar = () => {
     <div className="fixed top-0 left-0 right-0 bg-white">
       <div className="navbar w-full max-w-[1280px] mx-auto">
         <div className="navbar-start">
-          <a className="text-xl font-extrabold text-black">Job Hunter</a>
+          <Link to="/" className="text-xl font-extrabold text-black">
+            Job Hunter
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-black text-base font-medium">
