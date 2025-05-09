@@ -22,25 +22,25 @@ const CompanyDetails = () => {
   }, [id]);
 
   return (
-    <div>
+    <div className="w-full max-w-[1280px] mx-auto py-10">
       {loading ? (
         <div className="flex justify-center items-center">
           <span className="loading loading-bars loading-lg"></span>
         </div>
       ) : (
-        <div className="max-w-4xl mx-auto p-4">
+        <div>
           <div className="mb-6">
-            <img src={company.logo} alt={company.name} className="h-20 mb-2" />
-            <h2 className="text-3xl font-bold">{company.name}</h2>
-            <p className="text-gray-500">{company.location}</p>
-            <a href={company.website} target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">
+            <img src={company?.logo} alt={company?.name} className="h-20 mb-2 rounded-md object-cover" />
+            <h2 className="text-3xl font-bold">{company?.name}</h2>
+            <p className="text-gray-500">{company?.location}</p>
+            <a href={company?.website} target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">
               Visit Website
             </a>
           </div>
 
           <h3 className="text-2xl font-semibold mb-4">Available Jobs</h3>
           <div className="grid gap-4">
-            {company.jobs.map((job) => (
+            {company?.jobs.map((job) => (
               <div
                 key={job.id}
                 className="border p-4 rounded-lg bg-white shadow flex flex-col sm:flex-row sm:justify-between"
@@ -64,7 +64,6 @@ const CompanyDetails = () => {
             <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-start overflow-y-auto">
               <div className="bg-white max-w-xl w-full rounded-lg p-6 mt-20 shadow-lg relative">
                 <h2 className="text-2xl font-bold mb-2">{selectedJob.title}</h2>
-                <img src={selectedJob.bannerImage} alt={selectedJob.title} className="mb-4 rounded" />
                 <p className="mb-2">
                   <strong>Location:</strong> {selectedJob.location}
                 </p>
@@ -83,7 +82,7 @@ const CompanyDetails = () => {
                 </ul>
                 <div className="flex justify-between">
                   <Link
-                    to={company.website || "#"}
+                    to={company?.website || "#"}
                     target="_blank"
                     rel="noreferrer"
                     onClick={() => setSelectedJob(null)}
