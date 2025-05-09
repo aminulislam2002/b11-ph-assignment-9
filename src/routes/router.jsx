@@ -6,6 +6,7 @@ import Login from "../components/Login/Login";
 import CompanyDetails from "../components/CompanyDetails/CompanyDetails";
 import MyProfile from "../components/MyProfile/MyProfile";
 import PrivateRoute from "./PrivateRoute";
+import ForgotPass from "../components/ForgotPass/ForgotPass.JSX";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "login",
         element: <Login></Login>,
+      },
+      {
+        path: "forgot",
+        element: <ForgotPass></ForgotPass>,
       },
       {
         path: "my-profile",
