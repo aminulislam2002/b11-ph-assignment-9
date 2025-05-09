@@ -25,6 +25,7 @@
       }
     ]
   },
+
   {
     "id": "2",
     "name": "Data Analytics Inc.",
@@ -49,6 +50,7 @@
           "Effective communication and teamwork abilities"
         ]
       },
+      
       {
         "id": "job-003",
         "title": "Data Engineer",
@@ -67,6 +69,7 @@
       }
     ]
   },
+
   {
     "id": "3",
     "name": "Creative Designs Co.",
@@ -93,6 +96,7 @@
       }
     ]
   },
+
   {
     "id": "4",
     "name": "Global Logistics Solutions",
@@ -119,6 +123,7 @@
       }
     ]
   },
+
   {
     "id": "5",
     "name": "HealthTech Innovations",
@@ -145,6 +150,7 @@
       }
     ]
   },
+
   {
     "id": "6",
     "name": "Green Energy Solutions",
@@ -171,6 +177,7 @@
       }
     ]
   },
+
   {
     "id": "7",
     "name": "Financial Services Ltd.",
@@ -197,6 +204,7 @@
       }
     ]
   },
+
   {
     "id": "8",
     "name": "Marketing Solutions Inc.",

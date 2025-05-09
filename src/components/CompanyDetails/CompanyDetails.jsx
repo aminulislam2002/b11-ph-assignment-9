@@ -22,7 +22,7 @@ const CompanyDetails = () => {
   }, [id]);
 
   return (
-    <div className="w-full max-w-[1280px] mx-auto py-10">
+    <div className="w-full max-w-[1200px] mx-auto py-10">
       {loading ? (
         <div className="flex justify-center items-center">
           <span className="loading loading-bars loading-lg"></span>

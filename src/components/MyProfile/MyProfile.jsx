@@ -5,7 +5,7 @@ const MyProfile = () => {
   const { user } = use(AuthContext);
 
   return (
-    <div className="w-full max-w-[1280px] mx-auto py-10">
+    <div className="w-full max-w-[1200px] mx-auto py-10">
       <div className="flex flex-col items-center text-center">
         <img
           src={user?.photoURL || "https://i.ibb.co/Y3d2k0X/default-user.png"}

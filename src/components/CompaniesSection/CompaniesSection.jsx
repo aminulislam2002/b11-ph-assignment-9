@@ -12,7 +12,7 @@ export default function CompaniesSection() {
   }, []);
 
   return (
-    <div className="w-full max-w-[1280px] mx-auto py-10 bg-gray-100">
+    <div className="w-full max-w-[1200px] mx-auto py-10 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl font-semibold mb-6 text-center">Top Companies</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6">

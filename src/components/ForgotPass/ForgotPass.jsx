@@ -1,20 +1,19 @@
 import React, { use, useState } from "react";
-import { Link, useNavigate } from "react-router";
+import { Link } from "react-router";
 import { AuthContext } from "../../provider/AuthProvider.jsx";
 
 const ForgotPass = () => {
   const [error, setError] = useState("");
   const { forgotPass } = use(AuthContext);
-  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
     const form = e.target;
     const email = form.email.value;
-    console.log({ email });
+
     forgotPass(email)
       .then(() => {
-        navigate("/login");
+        window.open("https://mail.google.com", "_blank");
       })
       .catch((error) => {
         const errorCode = error.code;
@@ -49,7 +48,7 @@ const ForgotPass = () => {
             type="submit"
             className="btn w-full bg-[#72B261] hover:bg-[#5c984e] text-white font-semibold transition duration-200"
           >
-            Login
+            Reset
           </button>
         </form>
       </div>

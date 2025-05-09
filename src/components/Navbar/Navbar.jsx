@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 left-0 right-0 bg-white">
-      <div className="navbar w-full max-w-[1280px] mx-auto">
+      <div className="navbar w-full max-w-[1200px] mx-auto">
         <div className="navbar-start">
           <Link to="/" className="text-xl font-extrabold text-black">
             Job Hunter

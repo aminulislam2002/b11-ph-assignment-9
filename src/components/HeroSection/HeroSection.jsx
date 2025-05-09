@@ -1,8 +1,8 @@
 const HeroSection = () => {
   return (
-    <div className="w-full max-w-[1280px] mx-auto">
-      <div className="py-20 flex justify-center items-center">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
+    <div className="w-full max-w-[1200px] mx-auto py-20">
+      <div className="flex justify-center items-center">
+        <div className="flex items-center">
           <div className="text-black">
             <h1 className="text-4xl sm:text-5xl font-bold mb-4">
               Find Your Dream Job with <span className="text-[#83B348]">Job Hunter</span>
