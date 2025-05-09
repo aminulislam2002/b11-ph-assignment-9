@@ -1,0 +1,226 @@
+[
+  {
+    "id": "1",
+    "name": "Tech Solutions Ltd.",
+    "logo": "https://example.com/logos/tech-solutions.png",
+    "location": "San Francisco, CA",
+    "website": "https://techsolutions.com",
+    "industry": "Software Development",
+    "jobs": [
+      {
+        "id": "job-001",
+        "title": "Frontend Developer",
+        "bannerImage": "https://example.com/banners/frontend.png",
+        "location": "Remote",
+        "salary": "$80,000 - $100,000",
+        "jobType": "Full-time",
+        "description": "Join our team to build responsive and user-friendly web applications.",
+        "requirements": [
+          "Proficient in HTML, CSS, and JavaScript",
+          "Experience with React or Vue.js",
+          "Familiarity with RESTful APIs",
+          "Good understanding of responsive design",
+          "Excellent problem-solving skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Data Analytics Inc.",
+    "logo": "https://example.com/logos/data-analytics.png",
+    "location": "New York, NY",
+    "website": "https://dataanalytics.com",
+    "industry": "Data Science",
+    "jobs": [
+      {
+        "id": "job-002",
+        "title": "Data Scientist",
+        "bannerImage": "https://example.com/banners/data-scientist.png",
+        "location": "New York, NY",
+        "salary": "$90,000 - $120,000",
+        "jobType": "Full-time",
+        "description": "Use your skills in data analysis to solve complex problems and drive business decisions.",
+        "requirements": [
+          "Strong proficiency in Python and R",
+          "Experience with machine learning algorithms",
+          "Ability to work with large datasets",
+          "Excellent statistical analysis skills",
+          "Effective communication and teamwork abilities"
+        ]
+      },
+      {
+        "id": "job-003",
+        "title": "Data Engineer",
+        "bannerImage": "https://example.com/banners/data-engineer.png",
+        "location": "Remote",
+        "salary": "$85,000 - $110,000",
+        "jobType": "Full-time",
+        "description": "Build and maintain scalable data pipelines and ETL processes.",
+        "requirements": [
+          "Proficiency in SQL and NoSQL databases",
+          "Experience with cloud platforms (AWS, Azure, GCP)",
+          "Knowledge of data warehousing concepts",
+          "Strong programming skills in languages like Python or Java",
+          "Experience with big data technologies (Hadoop, Spark)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Creative Designs Co.",
+    "logo": "https://example.com/logos/creative-designs.png",
+    "location": "Los Angeles, CA",
+    "website": "https://creativedesignsco.com",
+    "industry": "Design",
+    "jobs": [
+      {
+        "id": "job-004",
+        "title": "UI/UX Designer",
+        "bannerImage": "https://example.com/banners/uiux-designer.png",
+        "location": "Los Angeles, CA",
+        "salary": "$70,000 - $90,000",
+        "jobType": "Full-time",
+        "description": "Create intuitive and visually appealing user interfaces and experiences.",
+        "requirements": [
+          "Proficiency in Adobe Creative Suite (Illustrator, Photoshop, XD)",
+          "Strong understanding of user-centered design principles",
+          "Experience with wireframing and prototyping tools",
+          "Knowledge of front-end development (HTML, CSS, JavaScript)",
+          "Ability to collaborate effectively with cross-functional teams"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Global Logistics Solutions",
+    "logo": "https://example.com/logos/global-logistics.png",
+    "location": "London, UK",
+    "website": "https://globallogistics.com",
+    "industry": "Logistics",
+    "jobs": [
+      {
+        "id": "job-005",
+        "title": "Supply Chain Manager",
+        "bannerImage": "https://example.com/banners/supply-chain-manager.png",
+        "location": "London, UK",
+        "salary": "£60,000 - £80,000",
+        "jobType": "Full-time",
+        "description": "Optimize supply chain operations to improve efficiency and reduce costs.",
+        "requirements": [
+          "Proven experience in supply chain management",
+          "Strong analytical and problem-solving skills",
+          "Excellent negotiation and communication abilities",
+          "Knowledge of logistics software and ERP systems",
+          "Ability to lead and manage a team"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "HealthTech Innovations",
+    "logo": "https://example.com/logos/healthtech-innovations.png",
+    "location": "Boston, MA",
+    "website": "https://healthtechinnovations.com",
+    "industry": "Healthcare",
+    "jobs": [
+      {
+        "id": "job-006",
+        "title": "Senior Software Engineer",
+        "bannerImage": "https://example.com/banners/senior-software-engineer.png",
+        "location": "Remote",
+        "salary": "$100,000 - $130,000",
+        "jobType": "Full-time",
+        "description": "Lead the development of innovative healthcare solutions.",
+        "requirements": [
+          "Strong proficiency in Java or C++",
+          "Experience with healthcare information systems",
+          "Knowledge of HIPAA regulations",
+          "Ability to design and architect scalable software solutions",
+          "Excellent teamwork and communication skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Green Energy Solutions",
+    "logo": "https://example.com/logos/green-energy.png",
+    "location": "Berlin, Germany",
+    "website": "https://greenenergysolutions.com",
+    "industry": "Renewable Energy",
+    "jobs": [
+      {
+        "id": "job-007",
+        "title": "Renewable Energy Engineer",
+        "bannerImage": "https://example.com/banners/renewable-energy-engineer.png",
+        "location": "Berlin, Germany",
+        "salary": "€70,000 - €90,000",
+        "jobType": "Full-time",
+        "description": "Develop and implement sustainable energy projects.",
+        "requirements": [
+          "Degree in Engineering or related field",
+          "Experience with solar or wind energy systems",
+          "Knowledge of energy efficiency technologies",
+          "Strong project management skills",
+          "Passion for environmental sustainability"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Financial Services Ltd.",
+    "logo": "https://example.com/logos/financial-services.png",
+    "location": "Singapore",
+    "website": "https://financialservices.com",
+    "industry": "Finance",
+    "jobs": [
+      {
+        "id": "job-008",
+        "title": "Financial Analyst",
+        "bannerImage": "https://example.com/banners/financial-analyst.png",
+        "location": "Singapore",
+        "salary": "SGD 80,000 - SGD 100,000",
+        "jobType": "Full-time",
+        "description": "Analyze financial data to support strategic decision-making.",
+        "requirements": [
+          "Strong analytical skills and attention to detail",
+          "Proficiency in financial modeling and forecasting",
+          "Knowledge of accounting principles and financial regulations",
+          "Excellent communication and presentation skills",
+          "Ability to work effectively in a team environment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Marketing Solutions Inc.",
+    "logo": "https://example.com/logos/marketing-solutions.png",
+    "location": "Chicago, IL",
+    "website": "https://marketingsolutions.com",
+    "industry": "Marketing",
+    "jobs": [
+      {
+        "id": "job-009",
+        "title": "Digital Marketing Manager",
+        "bannerImage": "https://example.com/banners/digital-marketing-manager.png",
+        "location": "Remote",
+        "salary": "$90,000 - $110,000",
+        "jobType": "Full-time",
+        "description": "Lead digital marketing campaigns to drive brand awareness and engagement.",
+        "requirements": [
+          "Proven experience in digital marketing strategy",
+          "Strong understanding of SEO, SEM, and social media marketing",
+          "Ability to analyze marketing data and metrics",
+          "Creative thinking and problem-solving skills",
+          "Excellent project management abilities"
+        ]
+      }
+    ]
+  }
+]
